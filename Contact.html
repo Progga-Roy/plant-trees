@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+      *{
+          margin: 0;
+          padding: 0;
+          font-family:"Poppins",sans-serif ;
+          box-sizing: border-box;
+      }
+body{
+   /* background-color: black; */
+   background: url(back4.jpg)no-repeat;
+  background-size: cover;
+ 
+
+}
+
+header{
+display: flex;
+justify-content: space-between;
+/* background: rgb(59, 63, 54); */
+background: yellowgreen;
+margin-top: 20px;
+height: 90px;
+}
+header h2{
+   font-size: 30px;
+   color: rgb(59,63,54);
+   letter-spacing: 2px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 10px;
+  font-weight: 800;
+}
+.ul {
+    display: flex;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 1px;
+   margin: 10px;
+   gap: 10px;
+}
+
+.ul li {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+.ul li a{
+    text-decoration: none;
+    color: rgb(59,63,54);
+    font-weight: 500;
+    padding: 2px 15px;
+    border-radius: 20px;
+   transition: 0.3s;
+  transition-property:background;
+  font-weight: bold;
+ 
+}
+.ul li a:hover{
+   background:#f8f8f7;
+  
+}
+.logo{
+    width: 15%;
+   margin-left: 30px;
+   border-radius: 205px;
+   font-weight: bold;
+   font-size: 35px;
+   text-decoration: none;
+   letter-spacing: 3px;
+  color: black;
+   margin-top: 10px;
+}
+.h2{
+    color: blanchedalmond;
+    margin-left: 620px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+p{
+    margin-left: 438px;
+    color: yellowgreen;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.form{
+    margin-left: 500px;
+    margin-top: 40px;
+   width: 500px;
+   height: 470px;
+   background-color: blanchedalmond;
+   border: 2px solid yellowgreen;
+   
+}
+.input{
+    width: 80%;
+    height: 35px;
+    margin-top: 35px;
+    margin-left: 50px;
+    background: yellowgreen;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.message{
+    width: 80%;
+    height: 145px;
+    margin-top: 35px;
+    margin-left: 50px; 
+    background: yellowgreen;
+    /* background: black; */
+    outline: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}
+button{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 20;
+    font-weight: bold;
+   outline: 0;
+cursor: pointer;
+color:blanchedalmond;
+background: black;
+transition: 0.3s;
+transition-property: background;
+border: 2px solid yellowgreen;
+text-decoration: none;
+border-radius: 0px;
+letter-spacing: 1px;
+}
+button:hover{
+    color:black;
+background:blanchedalmond;
+
+}
+.footer-btn{
+ margin-top: 25px;
+margin-left: 1320px;
+background: yellowgreen;
+color: black;
+width: 100px;
+height: 35px;
+letter-spacing: 1px;
+}
+.next{
+    text-decoration: none;
+}  
+footer{
+    margin-bottom: 20px;
+} 
+ </style>
+</head>
+<body>
+    <header class="header">
+       <a href="#"class="logo">LOGO</a>
+         <ul class="ul">
+           <li><a href="index.html">Home</a></li> 
+           <li><a href="Gallery.html">Gallery</a></li> 
+           <li><a href="Contact.html">Contact</a></li> 
+           <li><a href="Sign-up.html">Sign-up</a></li> 
+         </ul>
+     </header>
+     <section>
+         <div class="h2">
+             <h2>CONTACT US</h2>
+             </div>
+           <div>
+            <p>
+                Have a question? Want to learn more about what we do?
+            </p>
+           </div>
+     </section>
+     <form class="form">
+         <div>
+            <input class="input" type="text"placeholder=" Your name" required>
+         </div>
+    <div>
+     <input class="input" type="email"placeholder=" Your e-mail">
+   
+    </div>
+    <div>
+        <input class="input" type="Subject" placeholder="Subject">
+    </div>
+    <div>
+        <!-- <input class="message" type="Message"placeholder=" Your message">  -->
+        <textarea class="message" name="" id="" cols="30" rows="10" placeholder=" Your message"></textarea>
+    </div>
+<div>
+    <button>SEND</button>
+</div>
+     </form>
+     <footer>
+        <button class="footer-btn"><a href="Sign-up.html" class="next"> Next Page</a></button>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+      *{
+          margin: 0;
+          padding: 0;
+          font-family:"Poppins",sans-serif ;
+          box-sizing: border-box;
+      }
+body{
+    background: url(green1.jpg)no-repeat;
+   background-size: cover;
+  
+
+}
+
+header{
+display: flex;
+justify-content: space-between;
+background: rgb(59, 63, 54);
+margin-top: 20px;
+height: 90px;
+}
+header h2{
+   font-size: 30px;
+   color:yellowgreen;
+   letter-spacing: 2px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 10px;
+  font-weight: 800;
+}
+.ul {
+    display: flex;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 1px;
+   margin: 10px;
+   gap: 10px;
+}
+
+.ul li {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+.ul li a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: 500;
+    padding: 2px 15px;
+    border-radius: 20px;
+   transition: 0.3s;
+  transition-property:background;
+  font-weight: bold;
+ 
+}
+.ul li a:hover{
+   background:#f8f8f7;
+  
+}
+.logo{
+    width: 15%;
+   margin-left: 30px;
+   border-radius: 205px;
+   font-weight: bold;
+   font-size: 35px;
+   text-decoration: none;
+   letter-spacing: 3px;
+   color: yellowgreen;
+   margin-top: 10px;
+}
+section{
+    margin-left: 530px;
+    margin-top: 40px;
+    
+}
+input{
+width:470px ;
+height: 35px ;
+font-size: 17px;
+outline: 0;
+border-radius: 15px;
+background: rgb(59, 63, 54);
+color: yellowgreen;
+font-weight: bold;
+border: 2px solid rgb(96, 126, 37);
+
+
+
+}
+button{
+width: 130px;
+height: 30px ;
+font-size: 17px;
+border-radius: 15px;
+background: yellowgreen;
+color:rgb(59, 63, 54);
+outline: 0;
+font-weight: bold;
+cursor: pointer;
+letter-spacing: 1px;
+text-decoration: none;
+
+}
+.pics{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.first{
+    
+    width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.second{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.third{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.fourth{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.fifth{
+/*     
+    width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+
+.sixth{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.seventh{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.eighth{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.ninth{
+/*     
+    width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.tenth{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.eleventh{
+    
+    /* width:80%;
+height: 343px; */
+width:93%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+.twelveth{
+    
+    /* width:80%;
+height: 343px; */
+width:95%;
+height: 350px;
+margin-top:20px ;
+border: 2px solid black;
+}
+
+.footer-btn{
+ margin-top: 25px;
+margin-left: 1290px;
+background: yellowgreen;
+color: black;
+width: 100px;
+height: 40px;
+font-size: 15px;
+border-radius: 0px;
+text-decoration: none;
+cursor: pointer;
+}
+.next{
+    text-decoration: none;
+}
+
+ </style>
+</head>
+<body>
+    <header class="header">
+       <a href="#"class="logo">LOGO</a>
+         <ul class="ul">
+           <li><a href="index.html">Home</a></li> 
+           <li><a href="Gallery.html">Gallery</a></li> 
+           <li><a href="Contact.html">Contact</a></li> 
+           <li><a href="Sign-up.html">Sign-up</a></li> 
+         </ul>
+     </header>
+     <section>
+         <input type="text" placeholder="Search your image">
+        <button>Search</button>
+     </section>
+     <main class="pics">
+         <img src="plant1.jpg" alt="" class="first">
+         <img src="plant5.jpg" alt=""  class="sixth">
+         <img src="plant8.png" alt=""  class="third">
+         <img src="plant3.png" alt=""  class="fourth">
+         <img src="plant2.jpg" alt=""  class="fifth">
+         <img src="t2.png" alt="" class="second">
+         <img src="plant6.webp" alt=""  class="seventh">
+         <img src="plant7.png" alt=""  class="eighth">
+         <img src="plant12.jpg" alt=""  class="ninth">
+         <img src="plant9.jpg" alt=""  class="tenth">
+         <img src="plant10.png" alt=""  class="eleventh">
+         <img src="plant11.jpg" alt=""  class="twelveth">
+     </main>
+     <footer>
+        <button class="footer-btn"><a href="Contact.html" class="next"> Next Page</a></button>
+     </footer>
+
+</body>
+</html>

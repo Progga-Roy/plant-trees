@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Trees</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+      *{
+          margin: 0;
+          padding: 0;
+          font-family:"Poppins",sans-serif ;
+          box-sizing: border-box;
+      }
+       body{
+           background: black;
+       } 
+
+header{
+display: flex;
+justify-content: space-between;
+background: yellowgreen;
+margin-top: 20px;
+}
+header h2{
+   
+    font-size: 30px;
+    color:black;
+    letter-spacing: 2px;
+   margin-left: 40px;
+   text-transform: uppercase;
+   position: relative;
+   margin: 10px;
+   font-weight: 800;
+   font-weight: bold;
+}
+.ul {
+    display: flex;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 1px;
+   margin: 10px;
+   gap: 10px;
+}
+
+.ul li {
+    list-style: none;
+    margin-right: 10px;
+   
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 2px 15px;
+    border-radius: 20px;
+   transition: 0.3s;
+  transition-property:background;
+    
+}
+.ul li a:hover{
+   background:#f8f8f7;
+  
+}
+.logo{
+    width: 5%;
+   margin-left: 30px;
+   border-radius: 205px;
+}
+.Div{
+    margin-left: 150px;
+    margin-top: 20px;
+ 
+}
+.Div h2{
+/* color: rgb(243, 229, 229); */
+color: yellowgreen;
+font-size: 40px;
+text-transform: uppercase;
+margin-top:20px ;
+    
+}
+.Div span{
+    font-weight: 500;
+    font-size: 35px;
+    margin-top:20px ;
+    color: yellowgreen;
+} 
+.Div p{
+ color: rgb(223, 226, 218);
+   font-weight: 500;
+   margin-bottom: 40px;
+   width: 600px;
+   text-align: justify;  
+   line-height: 20px;
+  
+} 
+.img{
+ 
+   border: 2px solid rgb(69, 107, 13);
+   height: 400px;
+   width: 90%;
+}
+
+.main-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top:40px;
+}
+
+.second-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 60px;
+
+
+}
+.second-div h2{
+ color: yellowgreen;
+font-size: 40px;
+text-transform: uppercase; 
+margin-left: 300px;
+padding:5px 10px;
+margin-top: 60px;
+padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.second-div h2:hover{
+    /* color:rgb(244, 250, 244) ; */
+  /* color:blanchedalmond;   */
+  color :rgb(243, 229, 229) ;
+}
+.img2{
+width:75%;
+height: 343px;
+margin-left: 210px;
+border-radius: 2px;
+border: 2px greenyellow solid;
+
+} 
+.img3{
+border-radius: 2px;
+border: 2px greenyellow solid;
+margin-right: 260px;
+margin-left: 50px;
+
+}
+.img4{
+    margin-left: 430px;
+    margin-top: 35px;
+ border-radius: 2px;
+border: 2px greenyellow solid;
+}
+footer{
+    margin-top: 20px;
+}
+.info-btn{
+    margin-top: 60px;
+    margin-left: 230px;
+    color: #fff;
+    background-color:yellowgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+  
+} .info-btn:hover{
+   color:rgb(57, 83, 3);
+   /* margin-top: 60px; */
+}
+ </style>
+</head>
+<body>
+   
+     <header class="header">
+        <img src="tree1.jpg" alt="" class="logo">
+         <ul class="ul">
+           <li><a href="index.html">Home</a></li> 
+           <li><a href="Gallery.html">Gallery</a></li> 
+           <li><a href="Contact.html">Contact</a></li> 
+           <li><a href="Sign-up.html">Sign-up</a></li> 
+         </ul>
+     </header>
+   <section class="main-section">
+<div class="main-div">
+        <div class="Div">
+            <h2>More Plant<br><span>Save Environment!</span></h1>
+            <p>
+                "Tree-planting is the process of transplanting tree seedlings, generally for forestry, land reclamation, or landscaping purpose. It differs from the transplantation of larger trees in arboriculture, and from the lower cost but slower and less reliable distribution of tree seeds. Trees contribute to their environment over long periods of time by providing oxygen, improving air quality, climate amelioration, conserving water, preserving soil, and supporting wildlife. During the process of photosynthesis, trees take in carbon dioxide and produce the oxygen we breathe."
+            </p>
+        </div>
+        <div>
+            <img src="TREE.png" alt="" class="img">
+         </div>
+        </div>
+    </section>
+       <div class="second-div">
+        <h2>"Plant Trees to Save Future Generations"</h2>
+       </div>
+       <div class="second-main">
+       <div>
+        <img src="tree5.jpg" alt="" class="img2">
+       </div>
+       <div>
+        <img src="tree4.jpg" alt="" class="img3">
+       </div>
+    </div>
+       <div>
+        <img src="tree2.jpg" alt="" class="img4">
+       </div>      
+ <footer>
+     <a href="Gallery.html" class="info-btn">More Info</a>
+    </footer>
+</body>
+
+</html>
